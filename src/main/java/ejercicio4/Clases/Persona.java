@@ -21,6 +21,7 @@ public abstract class Persona {
 
     public abstract boolean disponible();
 
+    //Función que genera un número random entre un mínimo y un máximo ingresado.
     public static int generarNumeroAleatorio(int minimo, int maximo){
         return (int)Math.floor(Math.random() * (minimo -(maximo +1)) + (maximo+1));
     }
